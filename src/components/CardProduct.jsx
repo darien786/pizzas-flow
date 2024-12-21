@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 export default function CardProduct({ image, title, price }) {
 
     return(
-        <div className="mb-6">
+        <div className="flex flex-wrap gap-1 mb-6">
             <Card isPressable shadow="lg" onPress={() => console.log("click")}>
                 <CardBody className="overflow-visible p-0 bg-orange-400">
                     <Image src={image} className="w-[300px]  h-[250px]" radius="lg" shadow="sm" width="100%"/>

@@ -17,20 +17,20 @@ export default function Home(){
                     <p className="text-xl font-bold"> Nuestra misión es ofrecerte calidad, frescura y el mejor servicio. </p>
                 </div>
             </div>
-            <div className="flex grid grid-cols-3 bg-gradient-to-r from-orange-400 via-black via-50% to-orange-400 w-full h-full rounded-lg space-y-4 mb-4">
-                <div className="flex flex-col justify-center items-center text-white">
-                    <p className="text-4xl font-bold mb-2">Pizzas</p>
-                    <CardProduct image={Pizza} title="Pizza" price={59} />
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 bg-gradient-to-r from-orange-400 via-black via-50% to-orange-400 w-full h-full rounded-lg p-4">
+                    <div className="flex flex-col justify-center items-center text-white">
+                        <p className="text-4xl font-bold mb-2">Pizzas</p>
+                        <CardProduct image={Pizza} title="Pizza" price={59} />
+                    </div>
+                    <div className="flex flex-col justify-center items-center text-white">
+                        <p className="text-4xl font-bold mb-2">Hamburguesas</p>
+                        <CardProduct image={Hamburguesa} title="Hamburguesa" price={59} />
+                    </div>
+                    <div className="flex flex-col justify-center items-center text-white">
+                        <p className="text-4xl font-bold mb-2">Hot Dogs</p>
+                        <CardProduct image={HotDog} title="Hot Dog" price={59} />
+                    </div>
                 </div>
-                <div className="flex flex-col justify-center items-center text-white">
-                    <p className="text-4xl font-bold mb-2">Hamburguesas</p>
-                    <CardProduct image={Hamburguesa} title="Hamburguesa" price={59} />
-                </div>
-                <div className="flex flex-col justify-center items-center text-white">
-                    <p className="text-4xl font-bold mb-2">Hot Dogs</p>
-                    <CardProduct image={HotDog} title="Hot Dog" price={59} />
-                </div>
-            </div>
             </ScrollShadow>
         </div>
     )
