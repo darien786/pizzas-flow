@@ -1,21 +1,32 @@
-import CardProduct from "../components/CardProduct";
 import PizzaHawuiana from "../assets/hamburguesa-flow.jpg";
+import CardProduct from "../components/CardProduct";
 
 export default function PageHamburguer() {
     
-    return(
+    return (
         <div className="w-full h-full flex flex-col items-center space-y-8 bg-gradient-to-r from-black via-black to-orange-400">
-                        <div className="bg-gradient-to-r from-black via-black to-orange-400 mt-4 w-full p-4">
-                            <p className="text-6xl font-bold font-cursive text-white text-center">Pizza individual $95</p>
-                            <p className="text-5xl font-bold font-quicksand text-white text-center">Elige 2 ingredientes a tu gusto para personalizar tu pizza </p>
-                            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mt-4">
-                                <CardProduct image={PizzaHawuiana} title="Hawuiana" price={95} />
-                                <CardProduct image={PizzaHawuiana} title="Pepperoni" price={95} />
-                                <CardProduct image={PizzaHawuiana} title="3 Quesos" price={95} />
-                                <CardProduct image={PizzaHawuiana} title="Champiñones" price={95} />
-                                <CardProduct image={PizzaHawuiana} title="Salchicha" price={95} />
-                            </div>
-                        </div>
+            <p className="text-6xl font-bold font-cursive text-white text-center">Hamburguesas</p>
+            <div className="w-full p-4 grid grid-cols-1 gap-4 md:grid-cols-2">
+                <div className="flex flex-col mt-4 w-full items-center space-y-2">
+                    <p className="text-5xl font-bold font-cursive text-white text-start">Hamburguesa <span className="text-danger">[clásica]</span></p>
+                    <p className="text-3xl font-bold font-quicksand text-white text-center">Carne, Queso amarillo, Jamón, Lechuga, Tomate, Cebolla, Catsup y Mostaza</p>
+                    <CardProduct image={PizzaHawuiana} title="" price={45} height={350} width={400} />
                 </div>
+                <div className="flex flex-col mt-4 w-full items-center space-y-2">
+                    <p className="text-5xl font-bold font-cursive text-white text-start">Hamburguesa <span className="text-danger">[Hawaiana]</span></p>
+                    <p className="text-3xl font-bold font-quicksand text-white text-center">Carne, Queso de hembra,Queso amarillo, Jamón, Piña, Lechuga, Tomate, Cebolla, Catsup y Mostaza</p>
+                    <CardProduct image={PizzaHawuiana} title="" price={55} height={350} width={400} />
+                </div>
+            </div>
+            <div className="flex flex-col mt-4 w-full items-center space-y-2 px-4">
+                    <p className="text-5xl font-bold font-cursive text-white text-start">Hamburguesa <span className="text-danger">[Mega especial]</span></p>
+                    <p className="text-3xl font-bold font-quicksand text-white text-center">Carne, Queso amarillo, Queso de hembra, Tocino, Salchicha asadas, Jamón, Lechuga, Tomate, Cebolla, Catsup y Mostaza</p>
+                    <CardProduct image={PizzaHawuiana} title="" price={65} height={350} width={400} />
+            </div>
+            <div className="flex flex-col mt-4 w-full items-center space-y-2 px-4 py-4">
+                <p className="font-bold font-quicksand text-white text-5xl text-center">Orden de papas gratis</p>
+                <p className="font-bold font-quicksand text-white text-5xl text-center">En la compra de 2 promociones <span className="text-danger font-bold font-cursive">[Mega Especial]</span></p>
+            </div>
+        </div>
     );
 }
