@@ -11,7 +11,7 @@ export default function Home(){
                 <h1 className="text-5xl font-bold font-cursive">¡Bienvenidos a Pizzas Flow!</h1>
                 <div className="mt-4 font-quicksand space-y-4">
                     <p className="text-2xl font-bold"> En <span className="font-cursive text-orange-400 text-3xl">Pizzas Flow</span> nos especializamos en la preparación de deliciosas pizzas, jugosas hamburguesas y exquisitos hot dogs. </p>
-                    <p className="text-2xl font-bold"> Disfruta de nuestras promociones especiales diseño para cada categoría: pizzas irresistibles, hamburguesas únicas y hot dogs llenos de sabor. </p>
+                    <p className="text-2xl font-bold"> Disfruta de nuestras promociones especiales y diseños para cada categoría: pizzas irresistibles, hamburguesas únicas y hot dogs llenos de sabor. </p>
                     <p className="text-2xl font-bold"> Nuestra misión es ofrecerte calidad, frescura y el mejor servicio. </p>
                 </div>
             </div>
