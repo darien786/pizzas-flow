@@ -6,7 +6,7 @@ import HotDogTocino from "../assets/hotdog-tocino.jpg"
 export default function PageHotDog() {
 
     return (
-            <div className="w-full h-full flex flex-col items-center space-y-8 bg-gradient-to-r from-black via-black to-orange-400">
+            <div className="w-full h-full flex flex-col items-center space-y-8 bg-gradient-to-r from-black via-black to-orange-400 pb-4">
                 <p className="text-6xl font-bold font-cursive text-white text-center">Hot Dogs</p>
                 <div className="w-full p-4 grid grid-cols-1 gap-4 md:grid-cols-2">
                     <div className="flex flex-col mt-4 w-full items-center space-y-2">
