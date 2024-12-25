@@ -9,7 +9,6 @@ export default function NavBar() {
         { name: "Pizzas", path: "/pizzas" },
         { name: "Hamburguesas", path: "/hamburguesas" },
         { name: "Hot Dogs", path: "/hot-dogs" },
-        { name: "Contacto", path: "/contacto" },
     ];
 
     useEffect(() => {

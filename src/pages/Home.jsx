@@ -1,5 +1,5 @@
 import CardProduct from "../components/CardProduct"
-import Hamburguesa from "../assets/hamburguesa-flow.jpg"
+import Hamburguesa from "../assets/hamburguesas.jpg"
 import Pizza from "../assets/pizzas-flow.jpg"
 import HotDog from "../assets/hot-dog-flow.jpg"
 
