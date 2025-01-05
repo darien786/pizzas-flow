@@ -15,7 +15,7 @@ export default function Home(){
                     <p className="text-2xl font-bold"> Nuestra misión es ofrecerte calidad, frescura y el mejor servicio. </p>
                 </div>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full h-full rounded-lg p-4 space-y-4 mt-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:grid-cols-1 gap-4 w-full h-full rounded-lg p-4 space-y-4 mt-6">
                     <div className="flex flex-col justify-center items-center text-white">
                         <p className="text-4xl font-bold mb-2">Pizzas</p>
                         <CardProduct image={Pizza} title="Pizza" price={95} height={258} width={300} />

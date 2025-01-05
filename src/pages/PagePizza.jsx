@@ -25,7 +25,7 @@ export default function PagePizza() {
                 <div className="bg-gradient-to-r from-black via-black to-orange-400 mt-4 w-full p-4">
                     <p className="text-6xl font-bold font-cursive text-white text-center">Pizza individual $95</p>
                     <p className="text-5xl font-bold font-quicksand text-white text-center">Elige 2 ingredientes a tu gusto para personalizar tu pizza </p>
-                    <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mt-4">
+                    <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-4 mt-4">
                         <CardProduct image={PizzaHawaiana} title="Hawaiana" price={95} height={220} width={250} />
                         <CardProduct image={PizzaPeperonni} title="Pepperoni" price={95} height={220} width={250} />
                         <CardProduct image={PizzaQuesos} title="3 Quesos" price={95} height={220} width={250} />
